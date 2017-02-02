@@ -46,8 +46,50 @@ a {
 }
 
 .grey {
-  height: 3px;
+  height: 3%;
   background-color: #807E7E;
   border: none;
-  width: 230px;
+  width: 230%;
+}
+
+@media screen and (max-width: 481px){
+
+#main, #subnav {
+  float: left;
+  padding: 0;
+  width: 94%;
+  margin: 3%;
+}
+
+#subnav dt{
+  padding: 0;
+  width: 94%;
+}
+
+#subnav {
+  border-right: 1% dotted #aaa;
+  border-bottom: 1% dotted #aaa;
+}
+
+#logo {
+  font-size: 45px;
+}
+
+#menu {
+  text-align: center;
+  padding: 0;
+}
+
+#menu li{
+  display: inline-block;
+  margin: 1.25% .5% 1.25% .5%;
+  border-left: 0;
+  padding: 1%;
+  border: 1px solid white;
+}
+
+#menu li a {
+  color: white;
+  text-decoration: none;
+}
 }
