@@ -4,4 +4,4 @@ License:
 
 A static site for a brief introduction of myself.
 
-# Link: https://kboygit.github.io/kirbyjames.github.io/
+# Link: https://kirbygit.github.io/kirbyjames.github.io/
